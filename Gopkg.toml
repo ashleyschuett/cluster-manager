@@ -71,6 +71,10 @@ required = [
   name = "k8s.io/code-generator"
   version = "kubernetes-1.13.3"
 
+[[override]]
+  name = "k8s.io/klog"
+  version = "v0.2.0"
+
 [prune]
   go-tests = true
   unused-packages = true
